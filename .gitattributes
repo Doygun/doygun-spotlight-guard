@@ -1,0 +1,9 @@
+# Shell scriptleri Linux'ta (RunPod) çalışacağı için DAİMA LF satır sonu kullan.
+# Windows'ta CRLF'e çevrilirse bash "bad interpreter" hatası verir.
+*.sh text eol=lf
+
+# Python ve metin dosyaları normalize edilsin
+*.py text
+*.md text
+*.txt text
+*.json text
