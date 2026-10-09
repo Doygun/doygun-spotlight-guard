@@ -138,3 +138,27 @@ spotlighting + HMAC variant). These are the internal identifiers for
 
 The adversarial and benign cases are derived from the publicly available
 [InjecAgent](https://github.com/uiuc-kang-lab/InjecAgent) benchmark.
+
+
+## Citation
+
+If you use Spotlight-Guard, its source code, or the accompanying evaluation artifacts in your research, please cite the following paper:
+
+```bibtex
+@article{demirol2026spotlightguard,
+  author  = {Demirol, Doygun and Aydogan, M.},
+  title   = {Balancing Security and Performance in {LLM} Agents: {Spotlight-Guard}, a Layered Defense Against Indirect Prompt Injection},
+  journal = {Applied Sciences},
+  year    = {2026},
+  volume  = {16},
+  number  = {15},
+  pages   = {7662},
+  doi     = {10.3390/app16157662},
+  url     = {https://doi.org/10.3390/app16157662}
+}
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
